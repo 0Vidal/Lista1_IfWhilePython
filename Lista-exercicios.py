@@ -80,11 +80,11 @@ elif idade >= 18 and idade <= 65:
     elif sexo == "m":
         valor = 8.25
     else:
-        print("Sexo inválido!")
+        print("Dados inválidos!")
 else:
     print("Dados inválidos!")
-if valor is not None:
-    print("Valor da entrada: R$", valor)
+
+print("Valor da entrada: R$", valor)
 
 #5. Um determinado material radioativo perde metade de sua massa a cada 50 segundos. 
 # Dada a massa inicial em gramas informada pelo usuário, fazer um programa que calcula o tempo necessário para que essa massa se torne menor que 0,5 grama.
